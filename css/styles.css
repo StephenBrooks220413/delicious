@@ -22,7 +22,9 @@ body {
 
 .max {
   height: 200px;
-  width: 90%;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text {
@@ -61,6 +63,12 @@ hr {
     height: auto;
     padding-top: 35%;
     padding-bottom: 35%;
+  }
+  .max {
+    height: 250px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
