@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-1 {
+  background: url("../assets/main.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.jumbotron {
+  margin-top: 130px;
+  margin-bottom: 80px;
+}
+
+.max {
+  height: 200px;
+  width: 90%;
+}
+
+.text {
+  font-size: 19px;
+}
+
+hr {
+  width: 60% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* media query */
+@media (max-width: 850px) {
+  .content-1 {
+    background: url("../assets/main.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+}
+
+@media (max-width: 650px) {
+  .content-1 {
+    background: url("../assets/main.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 35%;
+    padding-bottom: 35%;
+  }
+}
+
+@media (max-width: 450px) {
+  .content-1 {
+    background: url("../assets/main.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 40%;
+    padding-bottom: 40%;
+  }
+}
