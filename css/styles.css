@@ -37,6 +37,22 @@ hr {
   margin-right: auto;
 }
 
+.space {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.icon {
+  font-size: 3em;
+  color: grey;
+  opacity: 0.6;
+  padding-bottom: 20px;
+}
+
+.img-size {
+  max-height: 300px;
+  width: 800%;
+}
+
 /* media query */
 @media (max-width: 850px) {
   .content-1 {

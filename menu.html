@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./node_modules/mdb-ui-kit/css/mdb.min.css">
     <!-- added css file -->
     <link rel="stylesheet" href="./css/menu.css">
-    <title>Restuarant</title>
+    <title>Delicious</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                Restuarant
+                Delicious
             </a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,6 +81,34 @@
         </div>
     </div>
 +
+    <!-- menu -->
+    <div class="text-center btn-space">
+        <br>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+           SEE OUR MENU
+        </button>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">...</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                            Close
+                        </button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
 
     <script type="text/javascript" src="./node_modules/mdb-ui-kit/js/mdb.min.js"></script>
     <footer class="bg-dark text-center text-white">
